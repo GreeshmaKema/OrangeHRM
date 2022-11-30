@@ -5,10 +5,10 @@
     <classes>
       <class name="com.mohs10.scripts.HomeTest">
         <methods>
-          <include name="Verifyingapptitle"/>
           <include name="generateReport"/>
           <include name="beforeClass"/>
           <include name="afterClass"/>
+          <include name="LoginPageTestCase"/>
           <include name="methodName"/>
         </methods>
       </class> <!-- com.mohs10.scripts.HomeTest -->

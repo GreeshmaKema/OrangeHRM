@@ -34,12 +34,12 @@ public class StartBrowser
 		 extent = new ExtentReports();
 		 extent.attachReporter(sparkReporter);
 		 
-		 sparkReporter = new ExtentSparkReporter("Test-Reports/SanjeevaniProjectReport.html");
+		 sparkReporter = new ExtentSparkReporter("Test-Reports/Orange_HRM.html");
 		 extent.attachReporter(sparkReporter);
 		 //String dateName = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
 		 extent.setSystemInfo("Host Name", "Mohs10 Technologies");
          extent.setSystemInfo("Environment", "Automation Testing Report");
-         extent.setSystemInfo("User Name", "Deepika");
+         extent.setSystemInfo("User Name", "Greeshma");
          sparkReporter.config().setDocumentTitle("Automation Report ");
                 // Name of the report
          sparkReporter.config().setReportName("Automated TestCases HTML Report ");
